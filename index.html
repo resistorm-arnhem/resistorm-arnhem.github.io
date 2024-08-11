@@ -3,8 +3,69 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
+<header>
+        <nav class="navbar fixed-top navbar-light bg-light shadow mb-3 " id="site_nav_bar">
+            <div class="container-fluid ">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-3">
+                            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                                CMS
+                            </a>
+                        </div>
+                        <div class="col-7 d-flex justify-content-end">
 
+                            <div class="navbar-nav px-3">
+                                <a class="nav-link" asp-controller="Home" asp-action="Index">Posts</a>
+                            </div>
+                            <div class="navbar-nav px-3">
+                                <a class="nav-link" asp-controller="Topics" asp-action="Topics">Topics</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" id="site_container" class="py-5 my-5">
+        
+    </main>
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto" id="toast_title">Bootstrap</strong>
+                <small id="toast_duration">11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="toads_body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Blogs.WebCMS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/creators.js"></script>
+    <script src="~/lib/Highlight/highlight.min.js"></script>
+    <script src="~/js/sections.js"></script>
 </body>
 </html>
+
+
+    
