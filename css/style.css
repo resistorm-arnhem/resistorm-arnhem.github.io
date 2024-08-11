@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf);
+}
+
+.font-nunito {
+    font-family: 'Nunito Sans' !important;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.font-nunito {
+    font-family: 'Nunito Sans' !important;
+}
+
+@font-face {
+    font-family: "Source Sans 3";
+    src: url(/fonts/SourceSans3-VariableFont_wght.ttf);
+}
+
+.font-source {
+    font-family: 'Source Sans 3' !important;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+.font-condensed {
+    font-family: 'Roboto Condensed' !important;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+.font-mono {
+    font-family: "Roboto Mono" !important;
+}
+
+* {
+    font-family: Montserrat;
+}
+
+#site_nav_bar {
+    transition: top 0.3s;
+}
+
+html {
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:root {
+    --gray-1: #e8e9ec;
+    --gray-2: #dadbde;
+    --gray-3: #d6d6d6;
+    --gray-4: #cccccc;
+    --gray-5: #b3b3b3;
+    --prime-1: #556ee6;
+    --prime-2: #778beb;
+    --second-1: #3ec1d3;
+    --second-2: #64cddb;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+.vh-85 {
+    height: 85vh;
+}
+
+.vh-90 {
+    height: 90vh;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    margin-bottom: 60px;
+}
+
+.scroll-spy-col {
+}
+
+.section-nav-link-sub {
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+}
+
+.section-nav-link {
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+
+.list-item-input-strong {
+    max-width: 15em;
+}
+
+.btn-section-header svg {
+    stroke: var(--gray-2);
+}
+
+.btn-section-header:hover svg, .btn-section-header:focus svg {
+    stroke: var(--gray-5);
+}
+
+
+.section-card-header {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-right: 0.3em;
+    background-color: #eeeeee4e;
+}
+
+.section-card-index {
+    color: var(--gray-3);
+    font-weight: 400;
+}
+
+.section-card-type {
+    color: var(--gray-4);
+    font-weight: 400;
+}
+
+/*SECTION BTN*/
+.btn-primary {
+    fill: #fff;
+    stroke: #fff;
+    color: #fff;
+    background-color: var(--prime-1);
+    border-color: var(--prime-1);
+}
+
+    .btn-primary:hover {
+        background-color: var(--prime-2);
+        border-color: var(--prime-2);
+    }
+
+.btn-gray {
+    fill: #333;
+    stroke: #333;
+    color: #333;
+    background-color: var(--gray-1);
+    border-color: var(--gray-2);
+}
+
+    .btn-gray:hover {
+        background-color: var(--gray-3);
+        border-color: var(--gray-4);
+    }
+
+
+    .section-title{
+        font-weight: 300;
+        font-family: Montser
+    }
+
+
+
+
+
+.listing-strong {
+    font-weight: 700 !important;
+}
+
+
+code{
+    padding: 1.2em;
+    display: inline-block;
+    background-color: #393939;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+dl {
+    background-color: #f5f5f5;
+    padding: 1.1em;
+    border-radius: 9px;
+}
+
+
+.left-nav-flush{
+    font-size: 14px !important;
+}
+
+.text-link{
+    color: var(--gray-5);
+    font-size: 0.9em;
+}
+
+
+textarea.post-control{
+    field-sizing: content !important;
+}
+
+input.post-control, textarea.post-control{
+    border-color: #ffffff !important;
+}
+
+input.post-control:hover, textarea.post-control:hover{
+    border-color: #ededed !important;
+}
+
+input.post-control:focus, textarea.post-control:focus{
+    border-color: #ababab !important;
+    border-width: 1px;
+    box-shadow: none;
+}
+
+input.post-title{
+    font-size: 1.7em;
+}
+
+input.post-subtitle{
+    font-size: 1.4em;
+}
+
+.post-control.section-title {
+    font-size: 1.3em;
+    font-family: Montserrat;
+}
+
+.blogpost-section{
+    border-color: #ababab !important;
+    border-width: 1px;
+    border-radius: 8px;
+}
